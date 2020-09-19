@@ -1,9 +1,10 @@
 import React from 'react'
+import "./About.css"
 
 export default function About() {
     return (
         <div>
-            <h1 style={{color:"white", textAlign: "center"}}>About component</h1>
+            <h2>For more <a href="https://sh3hz.github.io">GitHub</a></h2>
         </div>
     )
 }

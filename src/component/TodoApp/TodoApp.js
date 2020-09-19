@@ -33,12 +33,12 @@ class TodoApp extends Component {
     return (
       <div className="todo-container">
         <form className="input-section" onSubmit={this.storeItems}>
-          <h1>TodoApp</h1>
+          <h1>Todo</h1>
           <input
             type="text"
             value={input}
             onChange={this.handleChange}
-            placeholder="enter items"
+            placeholder="   Enter here . . ."
           />
         </form>
         <ul>

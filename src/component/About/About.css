@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+h2{
+    color: rgb(153, 150, 150);
+    text-decoration: none;
+}
+
+h2 a {
+    color: rgb(175, 166, 166);
+    text-decoration: line-through;
+}
